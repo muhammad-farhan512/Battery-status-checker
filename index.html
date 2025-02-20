@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery Charging Show</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Battery Charging Show</h1>
+        <div class="device-display">
+            <img id="deviceImage" src="laptop.png" alt="Device" />
+        </div>
+        <div class="battery-display">
+            <div class="battery">
+                <div class="charge">
+                    <span id="percentage">0%</span>
+                </div>
+                <img id="chargingIcon" src="charging.png" alt="Charging Icon" class="hidden" />
+            </div>
+            <p id="status">Checking battery status...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
